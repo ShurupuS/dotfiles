@@ -34,6 +34,15 @@ brew cask install iterm2
 brew install thefuck
 ```
 
+### Fonts
+```bash
+git clone https://github.com/powerline/fonts.git --depth=1
+cd fonts
+./install.sh
+cd ..
+rm -rf fonts
+```
+
 #### Clone dotfiles 
 ```bash
 cd
