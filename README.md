@@ -24,6 +24,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 brew cask install sublime-text
 ```
 
+#### Sublime launch from the command line
+```bash
+ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+```
+
 #### iterm2
 ```bash
 brew cask install iterm2
