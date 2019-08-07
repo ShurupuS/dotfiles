@@ -50,4 +50,5 @@ cd
 git clone https://github.com/ShurupuS/dotfiles .dotfiles
 [ -f ~/.zshrc ] && mv ~/.zshrc ~/.zshrc_old
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
+source ~/.zshrc
 ```
