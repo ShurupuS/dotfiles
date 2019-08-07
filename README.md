@@ -14,6 +14,16 @@ Dotfiles and profiles I'm using:
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
+#### Sublime
+```bash
+brew cask install sublime-text
+```
+
+#### iterm2
+```bash
+brew cask install iterm2
+```
+
 #### Clone dotfiles 
 ```bash
 cd
