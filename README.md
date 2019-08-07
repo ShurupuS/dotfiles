@@ -4,14 +4,15 @@ Dotfiles and profiles I'm using:
 * iterm2_config.json - Config for https://www.iterm2.com
 
 ## Installation
-#### RVM with stable Ruby
-```bash
-\curl -sSL https://get.rvm.io | bash -s stable --rails
-```
 
 #### Homebrew
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+#### RVM with stable Ruby
+```bash
+\curl -sSL https://get.rvm.io | bash -s stable --rails
 ```
 
 #### Oh-mmy-zsh
@@ -22,11 +23,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 #### Sublime
 ```bash
 brew cask install sublime-text
-```
-
-#### Sublime launch from the command line
-```bash
-ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 ```
 
 #### iterm2
@@ -52,5 +48,6 @@ rm -rf fonts
 ```bash
 cd
 git clone https://github.com/ShurupuS/dotfiles .dotfiles
+[ -f ~/.zshrc ] && mv ~/.zshrc ~/.zshrc_old
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ```
