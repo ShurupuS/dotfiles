@@ -47,7 +47,7 @@ rm -rf fonts
 #### Clone dotfiles 
 ```bash
 cd
-git clone https://github.com/ShurupuS/dotfiles .dotfiles
+git clone https://github.com/ShurupuS/dotfiles .dotfiles 2> /dev/null || git -C .dotfiles pull
 [ -f ~/.zshrc ] && mv ~/.zshrc ~/.zshrc_old
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 source ~/.zshrc
