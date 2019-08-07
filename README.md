@@ -24,6 +24,11 @@ brew cask install sublime-text
 brew cask install iterm2
 ```
 
+#### thefuck
+```bash
+brew install thefuck
+```
+
 #### Clone dotfiles 
 ```bash
 cd
